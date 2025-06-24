@@ -6,11 +6,11 @@ engines:
     name: "stockfish-ubuntu-x86-64-avx2"                     # Binary name of the engine to use.
     ponder: false                       # Think on opponent's time.
     silence_stderr: false                 # Suppresses stderr output.
-    move_overhead_multiplier: 1.2  # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
+    move_overhead_multiplier: 1.0 # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
     uci_options:                          # Arbitrary UCI options passed to the engine. (Commenting allowed)
       Threads: 4                          # Max CPU threads the engine can use.
       Hash: 4096                    # Max memory (in megabytes) the engine can allocate.
-      Move Overhead: 200
+      Move Overhead: 250
     limits:
       time: 5.0
       depth: 32
@@ -153,7 +153,7 @@ challenge:                                # Incoming challenges. (Commenting all
   time_controls:                          # Speeds or time controls in initial_minutes+increment_seconds format to accept.
     - bullet
     - blitz
-    - rapid
+  #  - rapid
   #  - classical
 #   - classical
 #   - 25+0
@@ -170,7 +170,7 @@ matchmaking:
   selection: cyclic                       # Matchmkaing type selection is one of "weighted_random", "sequential" or "cyclic
   types:                                  # Matchmaking types of which one is selected before each game.
     bullet:                               # Arbitrary name of the matchmaking type. Names must be unique.
-      tc: 30+0     
+      tc: 0.5+0     
     bulle2:
       tc: 3+0
     bc:
@@ -178,7 +178,7 @@ matchmaking:
     bm3:
       tc: 1+0
     gulugulu:
-      tc: 1+1
+      tc: 0.5+1
     guliguli:
       tc: 10+0
     hvj:
@@ -188,8 +188,10 @@ matchmaking:
     loss:
       tc: 2+0
     drum: 
-      tc: 2+1
+      tc: 0+1
       variant: chess960
+    sexy: 
+      tc: 0.75+0 
     
   # Time control in initial_minutes+increment_seconds format.
 #   casual_chess960:
