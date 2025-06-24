@@ -12,8 +12,8 @@ engines:
       Hash: 256                 # Max memory (in megabytes) the engine can allocate.
       Move Overhead: 250
     limits:
-      time: 2.0
-      depth: 20
+      time: 5.0
+      depth: 26
       nodes: 2500000
 # variants:                               # Engine used for variants when no suitable special engine is configured.
 #   dir: "./engines"                      # Directory containing the engine.
