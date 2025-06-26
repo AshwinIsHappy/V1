@@ -133,7 +133,7 @@ resign:
   against_humans: false                    # Activate whether these settings should apply against humans.
 
 challenge:                                # Incoming challenges. (Commenting allowed)
-  concurrency: 1                          # Number of games to play simultaneously.
+  concurrency: 2                          # Number of games to play simultaneously.
   bullet_with_increment_only: false       # Whether bullet games against BOTs should only be accepted with increment.
 # min_increment: 0                        # Minimum amount of increment to accept a challenge.
 # max_increment: 180                      # Maximum amount of increment to accept a challenge.
@@ -158,8 +158,8 @@ challenge:                                # Incoming challenges. (Commenting all
 #   - classical
 #   - 25+0
   bot_modes:                              # Game modes to accept against BOTs.
-   # - casual                              # Unrated games.
-    - rated                               # Rated games
+    - casual                              # Unrated games.
+#   - rated                               # Rated games
   human_modes:                            # Game modes to accept against humans.
     - casual                              # Unrated games.
 #   - rated                               # Rated games
@@ -171,8 +171,8 @@ matchmaking:
   types:                                  # Matchmaking types of which one is selected before each game.
     bullet:                               # Arbitrary name of the matchmaking type. Names must be unique.
       tc: 0.5+0     
-    bulle2:
-      tc: 0.75+0
+  # bulle2:
+  #  tc: 0.75+0
   #  bc:
     #  tc: 5+0
  #   bm3:
@@ -214,10 +214,10 @@ messages:
   #   {cpu} to insert CPU information
   #   {ram} to insert RAM size
   # Any other words in curly braces will be removed.
-  greeting: "Konnichiwa guzaimase! ❤️‍🔥Using help of {engine}Type !help to glimpse my arsenal.Best of luck"                                                              # Message sent to the opponent at the 
-  goodbye: "GGs , ezz.May we meet again , may i win again * 💶{me} signing off!"                                             # Message sent to the opponent after the end 
-  greeting_spectators: " ITZ {engine} in {me} competing for more depth with @{opponent} Type !help for a list of commands."                            # Message sent to the spectators at the beginning of a game.
-  goodbye_spectators: "SIMULATION TERMINATED### @{opponent} Thanks For watching ,{me} signing off!"                                           # Message sent to the spectators after the end of a game.
+  greeting: "AHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAH"                                                              # Message sent to the opponent at the 
+  goodbye: "AHAHAHAHAHAHAHHAHAAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAAHHAHAH"                                             # Message sent to the opponent after the end 
+  greeting_spectators: "HAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAAHHAAHAHAHAHAHAHAHHAAHHAHA"                            # Message sent to the spectators at the beginning of a game.
+  goodbye_spectators: "HAHAHAHAHHAHAHAHAHAHAAHAHAHHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAH"                                           # Message sent to the spectators after the end of a game.
 
 # whitelist:                              # List of users whose challenges are always accepted.
 #   - Username1
