@@ -216,8 +216,8 @@ messages:
   # Any other words in curly braces will be removed.
   greeting: "AHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAH"                                                              # Message sent to the opponent at the 
   goodbye: "AHAHAHAHAHAHAHHAHAAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAAHHAHAH"                                             # Message sent to the opponent after the end 
-  greeting_spectators: "HAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAAHHAAHAHAHAHAHAHAHHAAHHAHA"                            # Message sent to the spectators at the beginning of a game.
-  goodbye_spectators: "HAHAHAHAHHAHAHAHAHAHAAHAHAHHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAH"                                           # Message sent to the spectators after the end of a game.
+  greeting_spectators: "Soggy, but deadly. GLHF!"                            # Message sent to the spectators at the beginning of a game.
+  goodbye_spectators: "Whether feast or famine, the shrimp swims on... GG!"                                           # Message sent to the spectators after the end of a game.
 
 # whitelist:                              # List of users whose challenges are always accepted.
 #   - Username1
